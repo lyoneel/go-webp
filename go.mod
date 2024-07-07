@@ -15,4 +15,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/kolesa-team/go-webp => github.com/lyoneel/go-webp v1.0.0
+replace github.com/kolesa-team/go-webp => github.com/lyoneel/go-webp v1.0.2
