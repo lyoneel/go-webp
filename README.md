@@ -1,28 +1,9 @@
 ![logo](test_data/images/logo.jpg)
 # go-webp
-[![Build Status](https://api.travis-ci.com/kolesa-team/go-webp.svg?branch=master)](https://travis-ci.com/github/kolesa-team/go-webp)
-[![GoDoc](https://godoc.org/github.com/kolesa-team/go-webp?status.svg)](https://godoc.org/github.com/kolesa-team/go-webp)
-[![Go Report](https://goreportcard.com/badge/github.com/kolesa-team/go-webp)](https://goreportcard.com/report/github.com/kolesa-team/go-webp)
-[![codecov](https://codecov.io/gh/kolesa-team/go-webp/branch/master/graph/badge.svg)](https://codecov.io/gh/kolesa-team/go-webp)
-
 Golang Webp library for encoding and decoding, using **C** binding for Google libwebp
 
 ## Requirements
 [libwebp](https://developers.google.com/speed/webp/docs/api)
-
-## Benchmarks
-```text
-% go test -bench "^BenchmarkDecode" ./webp                                                                                
-goos: darwin
-goarch: amd64
-pkg: github.com/kolesa-team/go-webp/webp
-BenchmarkDecodeLossy-12                       45          25965139 ns/op
-BenchmarkDecodeXImageLossy-12                 13          90735879 ns/op
-BenchmarkDecodeLossless-12                    64          18887482 ns/op
-BenchmarkDecodeXImageLossless-12              27          42422596 ns/op
-PASS
-ok      github.com/kolesa-team/go-webp/webp     7.877s
-```
 
 ## Install libwebp
 #### MacOS:
@@ -36,7 +17,7 @@ sudo apt-get install libwebp-dev
 ```
 
 ## Install
-`go get -u github.com/kolesa-team/go-webp`
+`go get -u github.com/lyoneel/go-webp`
 
 ## Examples
 
@@ -49,8 +30,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/kolesa-team/go-webp/decoder"
-	"github.com/kolesa-team/go-webp/webp"
+	"github.com/lyoneel/go-webp/decoder"
+	"github.com/lyoneel/go-webp/webp"
 )
 
 func main() {
@@ -85,8 +66,8 @@ go run example/decode/main.go
 package main
 
 import (
-	"github.com/kolesa-team/go-webp/encoder"
-	"github.com/kolesa-team/go-webp/webp"
+	"github.com/lyoneel/go-webp/encoder"
+	"github.com/lyoneel/go-webp/webp"
 	"image/jpeg"
 	"log"
 	"os"

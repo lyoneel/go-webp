@@ -32,7 +32,7 @@ import (
 )
 
 // Default libwebp image hints
-//noinspection GoUnusedConst
+// noinspection GoUnusedConst
 const (
 	HintDefault ImageHint = iota
 	HintPicture
@@ -42,7 +42,7 @@ const (
 )
 
 // Default libwebp presets
-//noinspection GoUnusedConst
+// noinspection GoUnusedConst
 const (
 	PresetDefault EncodingPreset = iota
 	PresetPicture

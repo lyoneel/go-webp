@@ -22,12 +22,11 @@
 package main
 
 import (
+	"github.com/lyoneel/go-webp/decoder"
+	"github.com/lyoneel/go-webp/webp"
 	"image/jpeg"
 	"log"
 	"os"
-
-	"github.com/kolesa-team/go-webp/decoder"
-	"github.com/kolesa-team/go-webp/webp"
 )
 
 func main() {
