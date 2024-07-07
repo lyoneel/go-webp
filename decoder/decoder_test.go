@@ -22,11 +22,12 @@
 package decoder
 
 import (
-	"github.com/lyoneel/go-webp/utils"
-	"github.com/stretchr/testify/require"
 	"image"
 	"os"
 	"testing"
+
+	"github.com/lyoneel/go-webp/utils"
+	"github.com/stretchr/testify/require"
 )
 
 func TestNewDecoder(t *testing.T) {
