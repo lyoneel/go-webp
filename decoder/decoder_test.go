@@ -26,7 +26,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kolesa-team/go-webp/utils"
+	"github.com/lyoneel/go-webp/utils"
 	"github.com/stretchr/testify/require"
 )
 

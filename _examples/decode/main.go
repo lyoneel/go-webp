@@ -22,8 +22,8 @@
 package main
 
 import (
-	"github.com/kolesa-team/go-webp/decoder"
-	"github.com/kolesa-team/go-webp/webp"
+	"github.com/lyoneel/go-webp/decoder"
+	"github.com/lyoneel/go-webp/webp"
 	"image/jpeg"
 	"log"
 	"os"
